@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="shadow p-3 mb-5 bg-white rounded">
+  <h1 id="site-title" style="color:#5420d0f7; text-align:center">MOVIE RECOMMENDER</h1>
+</div>
+
+  <form action = "{{url_for('recommend')}}">
+  	 <div class="form-group">
+  	 	<div id="main">
+  	 	<label style="color:#5420d0f7" for="movieInput">ENTER A MOVIE NAME TO GET RECOMMENDATIONS FOR</label>
+  	 	</div>
+    	<input type="text" name="title" class="form-control" placeholder="Movie name"/>
+    	
+    	<br>
+    	<input type="submit" class="btn btn-success btn-block" value="Submit">
+	</div>
+  </form>
+{% endblock %}

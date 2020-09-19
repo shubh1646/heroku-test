@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+#navigation
+{
+     background-image: url("images/Banner.png")!important;
+}
+
+#main
+{
+    color: #5420d0f7;
+    background-color: #e8ecef!important;
+
+}
